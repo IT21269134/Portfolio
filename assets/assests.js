@@ -94,7 +94,8 @@ export const workData = [
     date: "2023 October- 2024 March",
     description:
       "I worked as a web developer and HR assistant at a tech company. I was responsible for developing the company website and also assisting the HR department in recruitment and employee management.",
-    bgImage: "https://voxitec.com/static/og_image.png"
+    bgImage:
+      "https://image.pitchbook.com/6wJ9XTjIATywLFA9xb0hmJOaPkx1726567205026_200x200"
   }
 ];
 

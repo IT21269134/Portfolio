@@ -14,7 +14,7 @@ const Services = () => {
         building a website, SEO, HR, and graphics.
       </p>
 
-      <div className="grid grid-cols-4 gap-6 my-10">
+      <div className="grid grid-cols-auto  gap-6 my-10">
         {serviceData.map(({ icon, title, description }, index) =>
           <div
             key={index}
