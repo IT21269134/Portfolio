@@ -1,4 +1,4 @@
-import user_image from "./logo1.jpeg";
+import user_image from "./logo6.jpeg";
 import code_icon from "./code_icon.png";
 import code_icon_dark from "./code_icon_dark.png";
 import edu_icon from "./edu_icon.png";
@@ -13,7 +13,7 @@ import mongodb from "./mongodb.png";
 import right_arrow_white from "./right-arrow_white.png";
 import logo_icon from "./logo_icon.png";
 import logo_icon_dark from "./logo_icon_dark.png";
-import logo_dark from "./logo4.jpeg";
+// import logo_dark from "./logo4.jpeg";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
 import porfolio_img from "./logo9.jpeg";
@@ -53,7 +53,7 @@ export const assets = {
   right_arrow_white,
   logo_icon,
   logo_icon_dark,
-  logo_dark,
+  // logo_dark,
   mail_icon,
   mail_icon_dark,
   porfolio_img,
@@ -85,8 +85,7 @@ export const workData = [
     date: "2024 March - 2024 October",
     description:
       "I worked as an intern software engineer and SEO strategist at a tech company. I am working on the development of a web application and also working on the SEO of the company website.",
-    bgImage:
-      "https://media.licdn.com/dms/image/v2/D560BAQEvjWUi9T6A2g/company-logo_200_200/company-logo_200_200/0/1734676419064/the_web_sushi_logo?e=2147483647&v=beta&t=lO1Kx_qtQaY5Kdq_lEgU7tjar6rGpUoHUAhoiBaNohc"
+    link: ""
   },
   {
     company: "Voxitec",
@@ -94,8 +93,7 @@ export const workData = [
     date: "2023 October- 2024 March",
     description:
       "I worked as a web developer and HR assistant at a tech company. I was responsible for developing the company website and also assisting the HR department in recruitment and employee management.",
-    bgImage:
-      "https://image.pitchbook.com/6wJ9XTjIATywLFA9xb0hmJOaPkx1726567205026_200x200"
+    link: ""
   }
 ];
 

@@ -19,27 +19,24 @@ const Work = () => {
         {workData.map((project, index) =>
           <div
             key={index}
-            className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-            style={{ backgroundImage: `url(${project.bgImage})` }}
+            className="border border-gray-400 px-8 py-6 rounded-lg hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500"
           >
-            <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-              <div>
-                <h2 className="text-2xl font-Ovo">
-                  {project.company}
-                </h2>
-                <p className="text-xl ">
-                  {project.title}
-                </p>
-                <p className="text-md ">
-                  {project.date}
-                </p>
-                <p className="text-sm ">
-                  {project.description}
-                </p>
-              </div>
-              <div>
-                <Image src={assets.send_icon} alt="send Icon" className="w-5" />
-              </div>
+            <div>
+              <h2 className="text-2xl font-Ovo text-gray-950">
+                {project.company}
+              </h2>
+              <p className="text-xl font-semibold ">
+                {project.title}
+              </p>
+              <p className="text-sm text-zinc-400 ">
+                {project.date}
+              </p>
+              <p className="text-sm text-gray-700 ">
+                {project.description}
+              </p>
+            </div>
+            <div className="border rounded-full border-black w-10 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition mt-2">
+              <Image src={assets.send_icon} alt="send Icon" className="w-4" />
             </div>
           </div>
         )}

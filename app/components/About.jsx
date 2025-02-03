@@ -2,7 +2,7 @@ import { assets, infoList, toolData } from "@/assets/assests";
 import React from "react";
 import Image from "next/image";
 
-const About = () => {
+const About = ({ isDarkMode }) => {
   return (
     <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
@@ -28,13 +28,17 @@ const About = () => {
             {infoList.map(({ icon, icon_dark, title, description }, index) =>
               <li
                 key={index}
-                className="border-[0.5px] border-gray-400 rounded-xl p-5 cursor-pointer hover:bg-lightHover  hover:-translate-y-1 duration-500 hover:shadow-black"
+                className="border-[0.5px] border-gray-400 rounded-xl p-5 cursor-pointer hover:bg-lightHover  hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:shadow-white dark:hover:bg-darkHover/50"
               >
-                <Image src={icon} alt={title} className="w-7 mt-3" />
-                <h3 className="my-4 font-semibold text-gray-700">
+                <Image
+                  src={isDarkMode ? icon_dark : icon}
+                  alt={title}
+                  className="w-7 mt-3"
+                />
+                <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
                   {title}
                 </h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-sm dark:white/80">
                   {description}
                 </p>
               </li>
