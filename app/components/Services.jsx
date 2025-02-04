@@ -18,13 +18,13 @@ const Services = () => {
         {serviceData.map(({ icon, title, description }, index) =>
           <div
             key={index}
-            className="border border-gray-400 px-8 py-6 rounded-lg hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500"
+            className="border border-gray-400 px-8 py-6 rounded-lg hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
           >
             <Image src={icon} alt="Icon" className="w-10" />
-            <h3 className="text-lg  my-4 text-gray-700">
+            <h3 className="text-lg  my-4 text-gray-700 dark:text-white">
               {title}
             </h3>
-            <p className="text-sm text-gray-600 leading-5">
+            <p className="text-sm text-gray-600 leading-5 dark:text-white/80">
               {description}
             </p>
           </div>

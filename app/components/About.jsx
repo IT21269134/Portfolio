@@ -44,7 +44,7 @@ const About = ({ isDarkMode }) => {
               </li>
             )}
           </ul>
-          <h4 className="my-6 text-gray-700 font-Ovo">
+          <h4 className="my-6 text-gray-700 font-Ovo font-bold dark:white/80">
             Tools I use
             <ul className="flex items-center gap-3 sm:gap-5">
               {toolData.map((tool, index) =>

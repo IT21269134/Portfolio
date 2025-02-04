@@ -13,7 +13,6 @@ import mongodb from "./mongodb.png";
 import right_arrow_white from "./right-arrow_white.png";
 import logo_icon from "./logo_icon.png";
 import logo_icon_dark from "./logo_icon_dark.png";
-// import logo_dark from "./logo4.jpeg";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
 import porfolio_img from "./logo9.jpeg";
@@ -34,6 +33,7 @@ import hr_icon from "./hr_icon.png";
 import creative_icon from "./creative_icon.png";
 import right_arrow_dark from "./right-arrow_dark.png";
 import send_icon from "./send_icon.png";
+import send_icon_dark from "./send_icon_dark.png";
 import right_arrow_bold from "./right-arrow_bold.png";
 import right_arrow_bold_dark from "./right-arrow_bold_dark.png";
 
@@ -53,7 +53,6 @@ export const assets = {
   right_arrow_white,
   logo_icon,
   logo_icon_dark,
-  // logo_dark,
   mail_icon,
   mail_icon_dark,
   porfolio_img,
@@ -74,6 +73,7 @@ export const assets = {
   creative_icon,
   right_arrow_dark,
   send_icon,
+  send_icon_dark,
   right_arrow_bold,
   right_arrow_bold_dark
 };
@@ -126,21 +126,21 @@ export const serviceData = [
 export const infoList = [
   {
     icon: assets.code_icon,
-    icon_dark: "assets.code_icon_dark",
+    icon_dark: assets.code_icon_dark,
     title: "Languages",
     description:
       "JavaScript, HTML, CSS, MERN stack, NextJS, NestJS, Python, Java"
   },
   {
     icon: assets.edu_icon,
-    icon_dark: "assets.edu_icon_dark",
+    icon_dark: assets.edu_icon_dark,
     title: "Education",
     description:
       "Reading BSc(hons) information technology specialization in software engineering "
   },
   {
     icon: assets.project_icon,
-    icon_dark: "assets.project_icon_dark",
+    icon_dark: assets.project_icon_dark,
     title: "Projects",
     description:
       "various projects including web applications, SEO projects and content creation."
