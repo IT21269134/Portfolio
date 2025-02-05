@@ -97,8 +97,8 @@ For more details, check out the [Next.js deployment documentation](https://nextj
 If you have any questions, suggestions, or just want to connect, feel free to reach out:
 
 - **Email:** harini.sliit@gmail.com
-- **LinkedIn:** [LinkedIn Profile]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/harini-chamathka-kumbukgolla/))
-- **GitHub:** [GitHub Profile]([https://github.com/your-username](https://github.com/IT21269134))
+- **LinkedIn:** https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/harini-chamathka-kumbukgolla/
+- **GitHub:** https://github.com/your-username](https://github.com/IT21269134
 
 ---
 
