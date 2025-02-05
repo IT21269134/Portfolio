@@ -9,7 +9,7 @@ import vscode from "./vscode.png";
 import firebase from "./firebase.png";
 import figma from "./figma.png";
 import git from "./git.png";
-import mongodb from "./mongodb.png";
+import mongodb from "./mongodb.svg";
 import right_arrow_white from "./right-arrow_white.png";
 import logo_icon from "./logo_icon.png";
 import logo_icon_dark from "./logo_icon_dark.png";
